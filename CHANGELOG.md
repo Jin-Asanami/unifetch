@@ -1,5 +1,8 @@
 # 1.3.2
-* get-model fix (njb-fm#37, from nsavinda:master)
+* get-model fix (njb-fm#37, from @nsavinda)
+* add AZOS (dylanaraps#2339)
+* add Windows 95 (dylanaraps#2346)
+* add EvolutionOS (dylanaraps#2350)
 
 # 1.3.1
 * fix typo of Ubuntu Unity logo (own)
@@ -11,7 +14,7 @@
 * Fix typo of Ubuntu Unity logo (own)
 * Add open.Yellow.os logo (own)
 * Add RhaymOS logo (dylanaraps#2274)
-* Add support for displaying the ISA string on RISC-V CPUs (njb-fm#24, from aaronfranke:unifetch-riscv-isa)
+* Add support for displaying the ISA string on RISC-V CPUs (njb-fm#24, from @aaronfranke)
 * Add terminal gnome-console (dylanaraps#2277)
 * Add Floflis (dylanaraps#2289)
 * Simple improvements for Solaris (dylanaraps#2293)
