@@ -813,7 +813,7 @@ image_source="auto"
 # ChonkySealOS, Chrom, Cleanjaro, Clear Linux OS, ClearOS, Clover, Cobalt Linux, Condres, 
 # Container Linux by CoreOS, CRUX, Crystal Linux, Cucumber, CutefishOS, CyberOS, dahlia, DarkOs, Darwin,
 # Debian, Deepin, DesaOS, Devuan, DracOS, DragonFly, Drauger, Elementary, Elive, EncryptOS, EndeavourOS,
-# Endless, Enso, EuroLinux, Exherbo, Exodia Predator OS, Fedora, Feren, Finnix, Floflis FreeBSD, FreeMiNT,
+# Endless, Enso, EuroLinux, EvolutionOS, Exherbo, Exodia Predator OS, Fedora, Feren, Finnix, Floflis FreeBSD, FreeMiNT,
 # Frugalware, Funtoo, GalliumOS, Garuda, Gentoo, GhostBSD, glaucus, gNewSense, GNOME, GNU,
 # GoboLinux, GrapheneOS, Grombyang, Guix, Haiku, HarDClanZ, Hash, Huayra, Hybrid, HydroOS, Hyperbola,
 # iglunix, instantOS, IRIX, Itc, januslinux, Kaisen, Kali, Kamuriki, KaOS, KDE, Kibojoe, KLAE, Kogaion, Korora,
@@ -5977,8 +5977,8 @@ ASCII:
                                 ChonkySealOS, Chrom, Cleanjaro, Clear Linux OS, ClearOS, Clover, Cobalt Linux, Condres, 
                                 Container Linux by CoreOS, CRUX, Crystal Linux, Cucumber, CutefishOS, CyberOS, dahlia, DarkOs, Darwin,
                                 Debian, Deepin, DesaOS, Devuan, DracOS, DragonFly, Drauger, Elementary, Elive, EncryptOS, EndeavourOS,
-                                Endless, Enso, EuroLinux, Exherbo, Exodia Predator OS, Fedora, Feren, Finnix, Floflis, FreeBSD, FreeMiNT,
-                                Frugalware, Funtoo, GalliumOS, Garuda, Gentoo, GhostBSD, glaucus, gNewSense, GNOME, GNU,
+                                Endless, Enso, EuroLinux, EvolutionOS, Exherbo, Exodia Predator OS, Fedora, Feren, Finnix, Floflis, FreeBSD,
+                                FreeMiNT, Frugalware, Funtoo, GalliumOS, Garuda, Gentoo, GhostBSD, glaucus, gNewSense, GNOME, GNU,
                                 GoboLinux, GrapheneOS, Grombyang, Guix, Haiku, HarDClanZ, Hash, Huayra, Hybrid, HydroOS, Hyperbola,
                                 iglunix, instantOS, IRIX, Itc, januslinux, Kaisen, Kali, Kamuriki, KaOS, KDE, Kibojoe, KLAE, Kogaion, Korora,
                                 KrassOS, KSLinux, Kubuntu, LangitKetujuh, LaxerOS, LEDE, LibreELEC, Linspire, Linux, Linux Lite,
@@ -8841,6 +8841,30 @@ wWW${c2}N${c1}WWWWw
     wWWWWWWWWWWWWWWWw
        WWWWWWWWWWWWWw
            wWWWWWWWw
+EOF
+        ;;
+
+        "EvolutionOS"*)
+            set_colors 4 7
+            read -rd '' ascii_data <<'EOF'
+${c1}\e[1;32m      dddddddddddddddddddddddd
+  .dddd''''''''''''''''''''''dddd.
+  dd:   dddddddddddddddddddd;   dd:
+  dd:   ldl:''''''''''''''''    dd:
+  dd:   ldl:                    dd:
+  dd:   ldl:                    dd:
+  dd:   ldl:                    dd:
+  dd:   ldl:                    dd:
+  dd:   ldl: ddddddd;  ddddd;   dd:
+  dd:   ldl: '''''''   '''''    dd:
+  dd:   ldl:                    dd:
+  dd:   ldl:                    dd:
+  dd:   ldl:                    dd:
+  dd:   ldl:                    dd:
+  dd:   ldl: ddddddddddddddd;   dd:
+  dddd:.'''  '''''''''''''''  dddd:
+     dddddddddddddddddddddddddd;;'
+      '''''''''''''''''''''''''\e[0m
 EOF
         ;;
 
