@@ -819,7 +819,7 @@ image_source="auto"
 # iglunix, instantOS, IRIX, Itc, januslinux, Kaisen, Kali, Kamuriki, KaOS, KDE, Kibojoe, KLAE, Kogaion, Korora,
 # KrassOS, KSLinux, Kubuntu, LangitKetujuh, LaxerOS, LEDE, LibreELEC, Linspire, Linux, Linux Lite,
 # Linux Mint, Linux Mint Old, Live Raizo, LMDE, Lubuntu, Lunar, mac, Mageia, MagpieOS, Mandriva,
-# Manjaro, MassOS, MatuusOS, Maui, Mer, Minix, MIRACLE LINUX, Moevalent, MX, Namib, Neptune, NetBSD, Netrunner,
+# Manjaro, MassOS, MatuusOS, Maui, Mer, Minix, MIRACLE LINUX, Moevalent, MOS, MX, Namib, Neptune, NetBSD, Netrunner,
 # Nitrux, NixOS, NNLinux, NomadBSD, Nurunner, NuTyX, Obarun, OBRevenge, Open Source Media Center,
 # OpenBSD, openEuler, OpenIndiana, openmamba, OpenMandriva, OpenStage, openSUSE, openSUSE Leap,
 # Tumbleweed, OpenWrt, open.Yellow.os, OPNsense, Oracle, orchid, OS Elbrus, PacBSD, Parabola, parch,
@@ -5983,7 +5983,7 @@ ASCII:
                                 iglunix, instantOS, IRIX, Itc, januslinux, Kaisen, Kali, Kamuriki, KaOS, KDE, Kibojoe, KLAE, Kogaion, Korora,
                                 KrassOS, KSLinux, Kubuntu, LangitKetujuh, LaxerOS, LEDE, LibreELEC, Linspire, Linux, Linux Lite,
                                 Linux Mint, Linux Mint Old, Live Raizo, LMDE, Lubuntu, Lunar, mac, Mageia, MagpieOS, Mandriva,
-                                Manjaro, MassOS, MatuusOS, Maui, Mer, Minix, MIRACLE LINUX, Moevalent, MX, Namib, Neptune, NetBSD, Netrunner,
+                                Manjaro, MassOS, MatuusOS, Maui, Mer, Minix, MIRACLE LINUX, Moevalent, MOS, MX, Namib, Neptune, NetBSD, Netrunner,
                                 Nitrux, NixOS, NNLinux, NomadBSD, Nurunner, NuTyX, Obarun, OBRevenge, Open Source Media Center,
                                 OpenBSD, openEuler, OpenIndiana, openmamba, OpenMandriva, OpenStage, openSUSE, openSUSE Leap,
                                 Tumbleweed, OpenWrt, open.Yellow.os, OPNsense, Oracle, orchid, OS Elbrus, PacBSD, Parabola, parch,
@@ -10578,6 +10578,30 @@ ${c1}
        UUUUUUU     ${c2}V${c1}     UUUUUUU
           UUUUUUUUUUUUUUUUUUU
              UUUUUUUUUUUUU
+EOF
+        ;;
+
+        "MOS"*)
+            set_colors 4 6 7
+            read -rd '' ascii_data <<'EOF'
+${c2}  :--==========================--:
+.-=================================.
+-==================================-
+====================================
+=======-....:==========:....:=======
+=======:      -======-.     .=======
+=======:       :====-       .=======
+=======:        :==:        .=======
+=======:         ..         .=======
+=======:    .:        .:    .=======
+=======:    .=-      :=:    .=======
+=======:    .===.  .-==:    .=======
+=======:    .==========:    .=======
+=======:    :==========:    :=======
+====================================
+-===================================
+.==================================:
+  :--===========================-:.
 EOF
         ;;
 
