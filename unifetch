@@ -805,7 +805,7 @@ image_source="auto"
 # Values:  'auto', 'distro_name'
 # Flag:    --ascii_distro
 #
-# NOTE: AIX, AlmaLinux, Alpine, Alter, Amazon, AmogOS, Anarchy, Android, Antergos, antiX, AOSC OS,
+# NOTE: aerOS, AIX, AlmaLinux, Alpine, Alter, Amazon, AmogOS, Anarchy, Android, Antergos, antiX, AOSC OS,
 # AOSC OS/Retro, Aperio GNU/Linux, Apricity, Arch, ArchBox, Archcraft, ARCHlabs, ArchMerge,
 # ArchStrike, ArcoLinux, Artix, Arya, Asahi, Aster, AsteroidOS, astOS, Astra Linux Bedrock, AZOS, BigLinux, Bitrig,
 # BlackArch, blackPanther, BLAG, BlankOn, BlueLight, Bodhi, bonsai, BSD, BunsenLabs, Cachy OS,
@@ -5969,7 +5969,7 @@ ASCII:
     --ascii_colors x x x x x x  Colors to print the ascii art
     --ascii_distro distro       Which Distro's ascii art to print
 
-                                NOTE: AIX, AlmaLinux, Alpine, Alter, Amazon, AmogOS, Anarchy, Android, Antergos, antiX, AOSC OS,
+                                NOTE: aerOS, AIX, AlmaLinux, Alpine, Alter, Amazon, AmogOS, Anarchy, Android, Antergos, antiX, AOSC OS,
                                 AOSC OS/Retro, Aperio GNU/Linux, Apricity, Arch, ArchBox, Archcraft, ARCHlabs, ArchMerge,
                                 ArchStrike, ArcoLinux, Artix, Arya, Asahi, Aster, AsteroidOS, astOS, Astra Linux, AZOS, Bedrock, BigLinux, Bitrig,
                                 BlackArch, blackPanther, BLAG, BlankOn, BlueLight, Bodhi, bonsai, BSD, BunsenLabs, Cachy OS,
@@ -6351,6 +6351,36 @@ get_distro_ascii() {
     #
     # $ascii_distro is the same as $distro.
     case $(trim "$ascii_distro") in
+        "aerOS"*)
+            set_colors 6 6 7 1
+            read -rd '' ascii_data <<'EOF'
+${c1}                   ooo OOO OOO ooo
+               oOO                 OOo
+           oOO                         OOo
+        oOO                               OOo
+      oOO                                   OOo
+    oOO                                       OOo
+   oOO                                         OOo
+                                                OOo
+                                                 OOo
+                                                 OOo
+                                                 OOo
+                                                 OOo
+                                                 OOo
+  oOO                                           OOo
+   oOO                                         OOo
+    oOO                                       OOo
+      oOO                                   OOo
+        oO                                OOo
+           oOO                         OOo
+               oOO                 OOo
+                   ooo OOO OOO ooo
+EOF
+        ;;
+
+
+
+
         "AIX"*)
             set_colors 2 7
             read -rd '' ascii_data <<'EOF'
