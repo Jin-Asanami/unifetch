@@ -3,6 +3,9 @@
 * add AZOS (dylanaraps#2339)
 * add Windows 95 (dylanaraps#2346)
 * add EvolutionOS (dylanaraps#2350)
+* improve local IP detection (dylanaraps#2362)
+* add MOS (dylanaraps#2364)
+* add aerOS (dylanaraps#2360)
 
 # 1.3.1
 * fix typo of Ubuntu Unity logo (own)
