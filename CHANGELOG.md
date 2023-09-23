@@ -6,6 +6,7 @@
 * improve local IP detection (dylanaraps#2362)
 * add MOS (dylanaraps#2364)
 * add aerOS (dylanaraps#2360)
+* Changed the edges of the Ubuntu logo to make it rounder (dylanaraps#2378)
 
 # 1.3.1
 * fix typo of Ubuntu Unity logo (own)
