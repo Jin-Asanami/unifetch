@@ -817,7 +817,7 @@ image_source="auto"
 # Frugalware, Funtoo, GalliumOS, Garuda, Gentoo, GhostBSD, glaucus, gNewSense, GNOME, GNU,
 # GoboLinux, GrapheneOS, Grombyang, Guix, Haiku, HarDClanZ, Hash, Huayra, Hybrid, HydroOS, Hyperbola,
 # iglunix, instantOS, IRIX, Itc, januslinux, Kaisen, Kali, Kamuriki, KaOS, KDE, Kibojoe, KLAE, Kogaion, Korora,
-# KrassOS, KSLinux, Kubuntu, LangitKetujuh, LaxerOS, LEDE, LibreELEC, Linspire, Linux, Linux Lite,
+# KrassOS, KSLinux, Kubuntu, LainOS, LangitKetujuh, LaxerOS, LEDE, LibreELEC, Linspire, Linux, Linux Lite,
 # Linux Mint, Linux Mint Old, Live Raizo, LMDE, Lubuntu, Lunar, mac, Mageia, MagpieOS, Mandriva,
 # Manjaro, MassOS, MatuusOS, Maui, Mer, Minix, MIRACLE LINUX, Moevalent, MOS, MX, Namib, Neptune, NetBSD, Netrunner,
 # Nitrux, NixOS, NNLinux, NomadBSD, Nurunner, NuTyX, Obarun, OBRevenge, Open Source Media Center,
@@ -5981,7 +5981,7 @@ ASCII:
                                 FreeMiNT, Frugalware, Funtoo, GalliumOS, Garuda, Gentoo, GhostBSD, glaucus, gNewSense, GNOME, GNU,
                                 GoboLinux, GrapheneOS, Grombyang, Guix, Haiku, HarDClanZ, Hash, Huayra, Hybrid, HydroOS, Hyperbola,
                                 iglunix, instantOS, IRIX, Itc, januslinux, Kaisen, Kali, Kamuriki, KaOS, KDE, Kibojoe, KLAE, Kogaion, Korora,
-                                KrassOS, KSLinux, Kubuntu, LangitKetujuh, LaxerOS, LEDE, LibreELEC, Linspire, Linux, Linux Lite,
+                                KrassOS, KSLinux, Kubuntu, LainOS, LangitKetujuh, LaxerOS, LEDE, LibreELEC, Linspire, Linux, Linux Lite,
                                 Linux Mint, Linux Mint Old, Live Raizo, LMDE, Lubuntu, Lunar, mac, Mageia, MagpieOS, Mandriva,
                                 Manjaro, MassOS, MatuusOS, Maui, Mer, Minix, MIRACLE LINUX, Moevalent, MOS, MX, Namib, Neptune, NetBSD, Netrunner,
                                 Nitrux, NixOS, NNLinux, NomadBSD, Nurunner, NuTyX, Obarun, OBRevenge, Open Source Media Center,
@@ -9938,6 +9938,32 @@ oyyyyysos${c2}dy${c1}yyyyyyyyyyyyyyyyyy${c2}dMMMMy${c1}syyyo
            `.:/oosyyyysso/:.`
 EOF
         ;;
+
+    "LainOS"*)
+		set_colors 4 14 7 2 3 5
+		read -rd '' ascii_data <<'EOF'
+${c1}                    /==\\
+                    \\==/
+${c2}               · · · · · · ·
+            · · · · · · · · · ·
+	   · · · ${c1}.-======-.${c2}· · · ·
+${c1}        .::.${c2} ·${c1}.-============-.${c2}· ${c1}.::.
+     .:==:${c2}· ${c1}.:===:'${c2}. ·· .${c1}':===:.${c2} ·${c1}:==:.
+  .:===:${c2} · ${c1}:===.${c2} ·  ${c3}.--.${c2}  · ${c1}.===:${c2} · ${c1}:===:.
+ :===:${c2}· · ${c1}:===.${c2} · ${c3}.:====:.${c2} · ${c1}.===:${c2} · ·${c1}:===:
+(===:${c2}· · ${c1}:===-${c2} ·  ${c3}:======:${c2}  · ${c1}-===:${c2} · ·${c1}:===)
+ :===:${c2}· · ${c1}:===.${c2} · ${c3}':====:'${c2} · ${c1}.===:${c2} · ·${c1}:===:
+  ':===:${c2} · ${c1}:===.${c2} ·  ${c3}'--'${c2}  · ${c1}.===:${c2} · ${c1}:===:'
+     ':==:${c2}· ${c1}':===:.${c2}' ·· '${c1}.:===:'${c2} ·${c1}:==:'
+        '::'${c2} · ${c1}'===-.  .-==='${c2} · ${c1}'::'
+  ${c1}/==\\${c2}     · · · ${c1}:===  ===:${c2} · · ·     ${c1}/==\\
+  \\==/${c2}      · · ·${c1}:===${c2} ·${c1}===:${c2}· · ·      ${c1}\\==/${c1}
+         .-.   ${c2}· ${c1}:===${c2}· ${c1}===:${c2} ·${c1}   ${c1}.-.
+         .===.   .===  ===.   .===.
+           .========    ========.
+             '''''        '''''
+EOF
+		;;
 
         "LEDE"*)
             set_colors 4 7 1
