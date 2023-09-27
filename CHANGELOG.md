@@ -8,6 +8,7 @@
 * add aerOS (dylanaraps#2360)
 * Changed the edges of the Ubuntu logo to make it rounder (dylanaraps#2378)
 * Add LainOS logo (dylanaraps#2382)
+* Updated AZOS logo for recent logo change (njb-fm#41, from @RedFireSoftwareEntertainment)
 
 # 1.3.1
 * fix typo of Ubuntu Unity logo (own)
