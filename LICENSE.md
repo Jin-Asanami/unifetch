@@ -1,6 +1,7 @@
 The MIT License (MIT)
 
 Copyright (c) 2015-2021 Dylan Araps
+
 Copyright (c) 2022-2023 Radio New Japan Broadcasting Club
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
