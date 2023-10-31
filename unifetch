@@ -818,7 +818,7 @@ image_source="auto"
 # GoboLinux, GrapheneOS, Grombyang, Guix, Haiku, HarDClanZ, Hash, Huayra, Hybrid, HydroOS, Hyperbola,
 # iglunix, instantOS, IRIX, Itc, januslinux, Kaisen, Kali, Kamuriki, KaOS, KDE, Kibojoe, KLAE, Kogaion, Korora,
 # KrassOS, KSLinux, Kubuntu, LainOS, LangitKetujuh, LaxerOS, LEDE, LibreELEC, Linspire, Linux, Linux Lite,
-# Linux Mint, Linux Mint Old, Live Raizo, LMDE, Lubuntu, Lunar, mac, Mageia, MagpieOS, Mandriva,
+# Linux Mint, Linux Mint Old, Live Raizo, LMDE, Lubuntu, Lunar, mac, Mageia, MagpieOS, MainsailOS, Mandriva,
 # Manjaro, MassOS, MatuusOS, Maui, Mer, Minix, MIRACLE LINUX, Moevalent, MOS, MX, Namib, Neptune, NetBSD, Netrunner,
 # Nitrux, NixOS, NNLinux, NomadBSD, Nurunner, NuTyX, Obarun, OBRevenge, Open Source Media Center,
 # OpenBSD, openEuler, OpenIndiana, openmamba, OpenMandriva, OpenStage, openSUSE, openSUSE Leap,
@@ -5982,7 +5982,7 @@ ASCII:
                                 GoboLinux, GrapheneOS, Grombyang, Guix, Haiku, HarDClanZ, Hash, Huayra, Hybrid, HydroOS, Hyperbola,
                                 iglunix, instantOS, IRIX, Itc, januslinux, Kaisen, Kali, Kamuriki, KaOS, KDE, Kibojoe, KLAE, Kogaion, Korora,
                                 KrassOS, KSLinux, Kubuntu, LainOS, LangitKetujuh, LaxerOS, LEDE, LibreELEC, Linspire, Linux, Linux Lite,
-                                Linux Mint, Linux Mint Old, Live Raizo, LMDE, Lubuntu, Lunar, mac, Mageia, MagpieOS, Mandriva,
+                                Linux Mint, Linux Mint Old, Live Raizo, LMDE, Lubuntu, Lunar, mac, Mageia, MagpieOS, MainsailOS, Mandriva,
                                 Manjaro, MassOS, MatuusOS, Maui, Mer, Minix, MIRACLE LINUX, Moevalent, MOS, MX, Namib, Neptune, NetBSD, Netrunner,
                                 Nitrux, NixOS, NNLinux, NomadBSD, Nurunner, NuTyX, Obarun, OBRevenge, Open Source Media Center,
                                 OpenBSD, openEuler, OpenIndiana, openmamba, OpenMandriva, OpenStage, openSUSE, openSUSE Leap,
@@ -10298,6 +10298,43 @@ o00.              k0O${c2}dddddd${c1}occ
        ..          ${c4}dxl     .xx;
                     :xxolldxd'
                       ;oxdl.
+EOF
+        ;;
+
+        "MainsailOS_small"*)
+            set_colors 1
+            read -rd '' ascii_data <<'EOF'
+${c1}          -:
+         +%*
+       .#%%+
+      -%%%: +=
+     +%%#..#%%-
+   .#%%+ -%%%- +=
+  -%%%- +%%#..#%%+
+EOF
+          ;;
+
+        "MainsailOS"*)
+            set_colors 1
+            read -rd '' ascii_data <<'EOF'
+${c1}                           -
+                          *%:
+                        :%%%#
+                       =%%%%%-
+                      *%%%%%%#
+                    :#%%%%%%%#.
+                   -%%%%%%%%+
+                  *%%%%%%%%-    :
+                .#%%%%%%%#.    *%=
+               -%%%%%%%%+    :#%%%*
+              +%%%%%%%%-    =%%%%%%#.
+            .#%%%%%%%#.    *%%%%%%%%:
+           -%%%%%%%%*    :#%%%%%%%#.
+          +%%%%%%%%-    =%%%%%%%%+    :%*.
+        .#%%%%%%%#:    *%%%%%%%%-    +%%%%*:
+       :%%%%%%%%*    :#%%%%%%%#.   .*%%%%%%%*
+      +%%%%%%%%=    -%%%%%%%%+    :%%%%%%%%*
+    .#%%%%%%%%:    *%%%%%%%%-    =%%%%%%%%=
 EOF
         ;;
 
