@@ -1,3 +1,6 @@
+# Next Release
+* Add MainsailOS (dylanaraps#2407) 
+
 # 1.3.2
 * get-model fix (njb-fm#37, from @nsavinda)
 * add AZOS (dylanaraps#2339)
