@@ -1,6 +1,7 @@
 # Next Release
 * Add MainsailOS (dylanaraps#2407) 
 * Fix Kubuntu recognised as Ubuntu (dylanaraps#2411)
+* Add Xray_OS (dylanaraps#2411)
 
 # 1.3.2
 * get-model fix (njb-fm#37, from @nsavinda)
