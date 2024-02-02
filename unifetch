@@ -1282,14 +1282,23 @@ get_distro() {
             if [[ -f /etc/floflis-release ]]; then
                     distro="Floflis"
             fi
+        ;;
 
-            # Get Univalent flavour.
-            if [[ -f /usr/bin/pacman ]]; then
-                case $(pacman -Qq|grep uvgl-skel) in
-                    *"lxqt-kamu"*)    distro="${distro/Kamuriki/KLAE}"       ;;
-                    *"lxqt-moe"*)     distro="${distro/Univalent/Moevalent}"  ;;
-                esac
-            fi
+        # Get Univalent flavour
+        "Univalent")
+            case $(pacman -Qq|grep uve-skel) in
+                *"lxqt-moe"*)      distro="${distro/Univalent/Moevalent}";;
+                *"xfce"*)          distro="Xunivalent";;
+                *"plasma-studio"*) distro="Univalent Studio";;
+                *"plasma"*)        distro="Punivalent";;
+                *"i3wm"*)          distro="Uni3valent";;
+                *"cinnamon"*)      distro="Cunivalent";;
+                *"gnome"*)         distro="Gunivalent";;
+                *"mate"*)          distro="Munivalent";;
+                *"unity"*)         distro="Unitylent";;
+                *"budgie"*)        distro="Budgivalent";;
+                *"pantheon"*)      distro="Panthelent";;
+            esac
         ;;
 
         "Mac OS X"|"macOS")
