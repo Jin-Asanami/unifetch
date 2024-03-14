@@ -4,12 +4,12 @@
 # shellcheck disable=2009 disable=2153 disable=2154 disable=2243 disable=2244
 #
 # UniFetch: Neofetch fork with expanded functions.
-# https://github.com/jin-asanami/unifetch
+# https://github.com/njb-fm/unifetch
 #
 # The MIT License (MIT)
 #
 # Copyright (c) 2015-2021 Dylan Araps
-# Copyright (c) 2022-2023 Radio New Japan Broadcasting Club
+# Copyright (c) 2022-2024 NAKA-MURA JUKEBOX
 #
 # Permission is hereby granted, free of charge, to any person obtaining a copy
 # of this software and associated documentation files (the "Software"), to deal
@@ -29,8 +29,8 @@
 # OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 # SOFTWARE.
 
-version=1.3.2
-nf_version=7.4.3.2
+version=1.3.3
+nf_version=7.4.3.3
 
 # Fallback to a value of '5' for shells which support bash
 # but do not set the 'BASH_' shell variables (osh).
@@ -805,8 +805,8 @@ image_source="auto"
 # Values:  'auto', 'distro_name'
 # Flag:    --ascii_distro
 #
-# NOTE: aerOS, AIX, AlmaLinux, Alpine, Alter, Amazon, AmogOS, Anarchy, Android, Antergos, antiX, AOSC OS,
-# AOSC OS/Retro, Aperio GNU/Linux, Apricity, Arch, ArchBox, Archcraft, ARCHlabs, ArchMerge,
+# NOTE: aerOS, AIX, Alis, AlmaLinux, Alpine, Alter, Amazon, AmogOS, Anarchy, Android, Antergos, antiX,
+# AOSC OS, AOSC OS/Retro, Aperio GNU/Linux, Apricity,  Arch, ArchBox, Archcraft, ARCHlabs, ArchMerge,
 # ArchStrike, ArcoLinux, Artix, Arya, Asahi, Aster, AsteroidOS, astOS, Astra Linux Bedrock, AZOS, BigLinux, Bitrig,
 # BlackArch, blackPanther, BLAG, BlankOn, BlueLight, Bodhi, bonsai, BSD, BunsenLabs, Cachy OS,
 # Calculate, CalinixOS, Carbs, CBL-Mariner, CelOS, Center, CentOS, Chakra, ChaletOS, Chapeau,
@@ -1282,23 +1282,6 @@ get_distro() {
             if [[ -f /etc/floflis-release ]]; then
                     distro="Floflis"
             fi
-        ;;
-
-        # Get Univalent flavour
-        "Univalent")
-            case $(pacman -Qq|grep uve-skel) in
-                *"lxqt-moe"*)      distro="${distro/Univalent/Moevalent}";;
-                *"xfce"*)          distro="Xunivalent";;
-                *"plasma-studio"*) distro="Univalent Studio";;
-                *"plasma"*)        distro="Punivalent";;
-                *"i3wm"*)          distro="Uni3valent";;
-                *"cinnamon"*)      distro="Cunivalent";;
-                *"gnome"*)         distro="Gunivalent";;
-                *"mate"*)          distro="Munivalent";;
-                *"unity"*)         distro="Unitylent";;
-                *"budgie"*)        distro="Budgivalent";;
-                *"pantheon"*)      distro="Panthelent";;
-            esac
         ;;
 
         "Mac OS X"|"macOS")
@@ -5979,8 +5962,8 @@ ASCII:
     --ascii_colors x x x x x x  Colors to print the ascii art
     --ascii_distro distro       Which Distro's ascii art to print
 
-                                NOTE: aerOS, AIX, AlmaLinux, Alpine, Alter, Amazon, AmogOS, Anarchy, Android, Antergos, antiX, AOSC OS,
-                                AOSC OS/Retro, Aperio GNU/Linux, Apricity, Arch, ArchBox, Archcraft, ARCHlabs, ArchMerge,
+                                NOTE: aerOS, AIX, Alis, AlmaLinux, Alpine, Alter, Amazon, AmogOS, Anarchy, Android, Antergos, antiX, 
+                                AOSC OS, AOSC OS/Retro, Aperio GNU/Linux, Apricity, Arch, ArchBox, Archcraft, ARCHlabs, ArchMerge,
                                 ArchStrike, ArcoLinux, Artix, Arya, Asahi, Aster, AsteroidOS, astOS, Astra Linux, AZOS, Bedrock, BigLinux, Bitrig,
                                 BlackArch, blackPanther, BLAG, BlankOn, BlueLight, Bodhi, bonsai, BSD, BunsenLabs, Cachy OS,
                                 Calculate, CalinixOS, Carbs, CBL-Mariner, CelOS, Center, CentOS, Chakra, ChaletOS, Chapeau,
@@ -6388,9 +6371,6 @@ ${c1}                   ooo OOO OOO ooo
 EOF
         ;;
 
-
-
-
         "AIX"*)
             set_colors 2 7
             read -rd '' ascii_data <<'EOF'
@@ -6414,6 +6394,26 @@ h//NNNNh  ossss` +h  md- .hm/ `sNNNNN:+y
       :ys:/yNNNNNNNNNNNNNNNmy/:sy:
         .+ys///osyhhhhys+///sy+.
             -/osssossossso/-
+EOF
+        ;;
+
+        "Alis"*)
+            set_colors 4 7
+            read -rd '' ascii_data <<'EOF'
+${c1}           AAAA
+         AAA  AAA
+       AAAA    AAAA
+     AAAAA      AAAAA
+    AAAAAA      AAAAAA
+   AAAAAAA      AAAAAAA
+  AAAAAAAAA    AAAAAAAAA
+ AAAAAAAAAAA  AAAAAAAAAAA
+AAAAAAAAAA  AA  AAAAAAAAAA
+AAAAAAAA          AAAAAAAA
+ AAAAAA            AAAAAA
+  AAAA              AAAA
+   AAAA            AAAA
+      AA          AA
 EOF
         ;;
 
